@@ -66,6 +66,7 @@ messages_limit = 50
 editor = "default"
 
 [keys]
+quit = "Ctrl+Q"
 focus_guilds_tree = "Ctrl+G"
 focus_messages_text = "Ctrl+T"
 focus_message_input = "Ctrl+P"

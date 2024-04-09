@@ -63,6 +63,8 @@ func (mf *MainFlex) onInputCapture(event *tcell.EventKey) *tcell.EventKey {
 		}
 
 		return nil
+	case cfg.Keys.Quit:
+		app.Stop()
 	}
 
 	return event
